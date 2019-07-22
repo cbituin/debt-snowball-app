@@ -1,4 +1,4 @@
-#Debt Snowball App
+# Debt Snowball App
 
 A basic interface to track your debt snowball progress. Based on Dave Ramsey's Financial Peace University/Total Money Makeover.
 
