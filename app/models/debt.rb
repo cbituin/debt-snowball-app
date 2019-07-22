@@ -1,5 +1,10 @@
 class Debt < ActiveRecord::Base
-  validates
+  validates :name, presence: true
+  validates :start_bal, presence: true
+  validates :remain_bal, presence: true
+  validates :payment, presence: true
+  validates :snowball, presence: true
+
   belongs_to :user
 
   def slug
